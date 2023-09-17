@@ -10,7 +10,6 @@ function dscount(str, s1, s2) {
     return count;
 }
 
-// Для удобства можно использовать эти тесты:
 try {
     test(dscount, ['ab___ab__', 'a', 'b'], 2);
     test(dscount, ['___cd____', 'c', 'd'], 1);
