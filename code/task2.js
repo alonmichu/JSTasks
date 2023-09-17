@@ -6,6 +6,7 @@ function checkSyntax(str) {
     }
     let open_brackets = ["<", "[", "{", "("];
     let close_brackets = [">", "]", "}", ")"];
+    // another bracket set affects only on two arrays above, but not the solution itself
     let tmp_str = "";
     for (let i = 0; i < str.length; i++) {
         // if we meet an opening bracket, we save it in temporary string,
